@@ -1,14 +1,16 @@
-{
+﻿{
     "folders":  [
                     {
                         "path":  ".AL-Go"
                     },
                     {
                         "path":  "app1"
+                    },
+                    {
+                        "path":  "App1.Test"
                     }
                 ],
-    "settings": {
-        "powershell.cwd": "c:\\Users\\Dennisve\\Cloud Test\\PTE-App1\\.AL-Go"
-
+    "settings":  {
+                     "powershell.cwd":  "c:\\Users\\Dennisve\\Cloud Test\\PTE-App1\\.AL-Go"
                  }
 }
