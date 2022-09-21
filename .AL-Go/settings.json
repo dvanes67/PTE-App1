@@ -1,7 +1,10 @@
-{
+﻿{
     "country":  "nl",
     "appFolders":  [
-    ],
+
+                   ],
     "testFolders":  [
-    ]
+
+                    ],
+    "RepoVersion":  "1.0"
 }
