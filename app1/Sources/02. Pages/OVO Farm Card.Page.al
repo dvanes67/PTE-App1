@@ -5,9 +5,6 @@ page 50002 "OVO Farm Card"
     RefreshOnActivate = true;
     SourceTable = "OVO Farm";
 
-    ApplicationArea = All;
-    UsageCategory = Documents;
-
     layout
     {
         area(content)
@@ -18,7 +15,7 @@ page 50002 "OVO Farm Card"
 
                 field(No; Rec."No.")
                 {
-                    ApplicationArea = All;
+                    ApplicationArea = OVO;
                     Importance = Promoted;
 
                     trigger OnAssistEdit()
@@ -29,49 +26,49 @@ page 50002 "OVO Farm Card"
                 }
                 field(Name; Rec.Name)
                 {
-                    ApplicationArea = All;
+                    ApplicationArea = OVO;
                     Importance = Promoted;
                     ShowMandatory = true;
                 }
                 field(Address; Rec.Address)
                 {
-                    ApplicationArea = All;
+                    ApplicationArea = OVO;
                 }
                 field(Address2; Rec."Address 2")
                 {
-                    ApplicationArea = All;
+                    ApplicationArea = OVO;
                     Importance = Additional;
                 }
                 field(PostCode; Rec."Post Code")
                 {
-                    ApplicationArea = All;
+                    ApplicationArea = OVO;
                     Importance = Promoted;
                 }
                 field(City; Rec.City)
                 {
-                    ApplicationArea = All;
+                    ApplicationArea = OVO;
                 }
                 field(CountryRegionCode; Rec."Country/Region Code")
                 {
-                    ApplicationArea = All;
+                    ApplicationArea = OVO;
                 }
                 field(TerritoryCode; Rec."Territory Code")
                 {
-                    ApplicationArea = All;
+                    ApplicationArea = OVO;
                 }
                 field(PhoneNo; Rec."Phone No.")
                 {
-                    ApplicationArea = All;
+                    ApplicationArea = OVO;
                     Importance = Additional;
                 }
                 field(SearchName; Rec."Search Name")
                 {
-                    ApplicationArea = All;
+                    ApplicationArea = OVO;
                     Importance = Additional;
                 }
                 field(County; Rec.County)
                 {
-                    ApplicationArea = All;
+                    ApplicationArea = OVO;
                     Importance = Additional;
                 }
             }
@@ -81,16 +78,16 @@ page 50002 "OVO Farm Card"
 
                 field("Phone No. 2"; Rec."Phone No.")
                 {
-                    ApplicationArea = All;
+                    ApplicationArea = OVO;
                     Importance = Promoted;
                 }
                 field(EMail; Rec."E-Mail")
                 {
-                    ApplicationArea = All;
+                    ApplicationArea = OVO;
                 }
                 field(HomePage; Rec."Home Page")
                 {
-                    ApplicationArea = All;
+                    ApplicationArea = OVO;
                 }
             }
         }

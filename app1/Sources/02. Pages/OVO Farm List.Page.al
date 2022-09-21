@@ -5,7 +5,7 @@ page 50001 "OVO Farm List"
     Editable = false;
     PageType = List;    
     SourceTable = "OVO Farm";
-    ApplicationArea = All;
+    ApplicationArea = OVO;
     UsageCategory = Lists;
 
     layout
@@ -16,23 +16,23 @@ page 50001 "OVO Farm List"
             {
                 field(No; Rec."No.")
                 {
-
+                    ApplicationArea = OVO;
                 }
                 field(Name; Rec.Name)
                 {
-
+                    ApplicationArea = OVO;
                 }
                 field(SearchName; Rec."Search Name")
                 {
-                    
+                    ApplicationArea = OVO;
                 }
                 field(PostCode; Rec."Post Code")
                 {
-                    
+                    ApplicationArea = OVO;
                 }
                 field(City; Rec.City)
                 {
-                    
+                    ApplicationArea = OVO;
                 }
             }
         }        

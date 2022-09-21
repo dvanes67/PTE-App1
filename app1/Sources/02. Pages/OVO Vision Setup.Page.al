@@ -1,6 +1,6 @@
 page 50000 "OVO Vision Setup"
 {
-    ApplicationArea = All;
+    ApplicationArea = OVO;
     Caption = 'OVO Vision Setup';
     DeleteAllowed = false;
     InsertAllowed = false;
@@ -17,7 +17,7 @@ page 50000 "OVO Vision Setup"
                 Caption = 'Numbering';
                 field(FarmNos; Rec."Farm Nos.")
                 {
-                    ApplicationArea = All;
+                    ApplicationArea = OVO;
                     ToolTip = 'Specifies the farm nos. of the OVO vision setup.';
                     Importance = Promoted;
                 }
